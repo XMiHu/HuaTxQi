@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "610274DFBCB66AD53E405419A55F6106"
-               BlueprintName = "Pods-HuaTxQiDemo"
+               BlueprintIdentifier = "51BD7EE722CC378EB465467424DF9962"
+               BlueprintName = "HuaTMediator"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-HuaTxQiDemo.a">
+               BuildableName = "libHuaTMediator.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

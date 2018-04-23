@@ -7,41 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12FADDEFEFA6BDC1F1C57A0D266DD912 /* Pods-HuaTxQiDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AA4BDCFAF0D3C5412F256EAFD43655 /* Pods-HuaTxQiDemo-dummy.m */; };
-		32DF6476192EF47B07932514E5F06ACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		37D02B47FD974F358E362425A3F87DA0 /* MHMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E42F60EB8599D0DBEBAE6562472022 /* MHMediator.m */; };
+		43399AA34BDB7E06DAC042EC893E7A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B35D1BA2C837D8FFBA44152DDD7B6AEA /* Pods-HuaTxQiDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AA4BDCFAF0D3C5412F256EAFD43655 /* Pods-HuaTxQiDemo-dummy.m */; };
+		B99F4A68197B26A320EA885299EEAEAB /* MHMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DB7D7C8D5AA2F01F214B848395B621 /* MHMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCE5EDCEF82D5F61EACA437521241524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FC47E96565CF4BE63900287A59A42239 /* HuaTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EE71DCB29E5E410DB4E05F4EA6CF1B /* HuaTMediator-dummy.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23FA5C02FB17373A5887A899C73F8904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BD7EE722CC378EB465467424DF9962;
+			remoteInfo = HuaTMediator;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0287F8BE2A1D706140D561ACC91EF966 /* Pods-HuaTxQiDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuaTxQiDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		06EE71DCB29E5E410DB4E05F4EA6CF1B /* HuaTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HuaTMediator-dummy.m"; sourceTree = "<group>"; };
 		096C0FB9789A3D1CA6FE67FB6069C839 /* Pods-HuaTxQiDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTxQiDemo-resources.sh"; sourceTree = "<group>"; };
 		10AA4BDCFAF0D3C5412F256EAFD43655 /* Pods-HuaTxQiDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuaTxQiDemo-dummy.m"; sourceTree = "<group>"; };
+		55DB7D7C8D5AA2F01F214B848395B621 /* MHMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MHMediator.h; path = HuaTMediator/Classes/MHMediator/MHMediator.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		70B0C7B532D9A2D9FBF5544716C3ABCB /* Pods-HuaTxQiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTxQiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		81E42F60EB8599D0DBEBAE6562472022 /* MHMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MHMediator.m; path = HuaTMediator/Classes/MHMediator/MHMediator.m; sourceTree = "<group>"; };
 		8658760F5C12FA3531F671EE12B8219D /* Pods-HuaTxQiDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuaTxQiDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9194270F5A9E2EB2965529988C9A03C0 /* Pods-HuaTxQiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTxQiDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95FCCE42842D0A15591719FD2ACA45BE /* libPods-HuaTxQiDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HuaTxQiDemo.a"; path = "libPods-HuaTxQiDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C5185E3EB56EB795F1F2CC58EE2C75 /* HuaTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HuaTMediator.xcconfig; sourceTree = "<group>"; };
 		C56604B5CFCDB43CD1720D2AD8049A20 /* Pods-HuaTxQiDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTxQiDemo-frameworks.sh"; sourceTree = "<group>"; };
+		E8E347FAFF857709455B27B2513E0257 /* HuaTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaTMediator-prefix.pch"; sourceTree = "<group>"; };
+		F6ECA017ACA8092F8E75D7B02DF57467 /* libPods-HuaTxQiDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HuaTxQiDemo.a"; path = "libPods-HuaTxQiDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE7DED79968DD44A65FED90A523DBFE /* libHuaTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHuaTMediator.a; path = libHuaTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2CF3564CEF89B2D42E6EE38143FCC5E1 /* Frameworks */ = {
+		531BC6D0217BCA513BFD6D50DD357D71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32DF6476192EF47B07932514E5F06ACD /* Foundation.framework in Frameworks */,
+				43399AA34BDB7E06DAC042EC893E7A3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A042D51AA0371ED78F4ACBCD9C4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE5EDCEF82D5F61EACA437521241524 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3614256F5BE067957E256B6A0A1341E9 /* Products */ = {
+		6EF14A10D012BC91DE73D280C386843D /* HuaTMediator */ = {
 			isa = PBXGroup;
 			children = (
-				95FCCE42842D0A15591719FD2ACA45BE /* libPods-HuaTxQiDemo.a */,
+				55DB7D7C8D5AA2F01F214B848395B621 /* MHMediator.h */,
+				81E42F60EB8599D0DBEBAE6562472022 /* MHMediator.m */,
+				F8E37D68AE44F05650D19A56918D39DA /* Support Files */,
 			);
-			name = Products;
+			name = HuaTMediator;
+			path = HuaTMediator;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -49,7 +80,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3614256F5BE067957E256B6A0A1341E9 /* Products */,
+				F4509EF8288AFF748A9823CFF8380360 /* Pods */,
+				C4B122BAE47FBCAA5C5A6AD22A4BAAD8 /* Products */,
 				DB66B5384F5B3044B39ED749BEAF86DF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +109,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C4B122BAE47FBCAA5C5A6AD22A4BAAD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE7DED79968DD44A65FED90A523DBFE /* libHuaTMediator.a */,
+				F6ECA017ACA8092F8E75D7B02DF57467 /* libPods-HuaTxQiDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,23 +134,71 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F4509EF8288AFF748A9823CFF8380360 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EF14A10D012BC91DE73D280C386843D /* HuaTMediator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8E37D68AE44F05650D19A56918D39DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95C5185E3EB56EB795F1F2CC58EE2C75 /* HuaTMediator.xcconfig */,
+				06EE71DCB29E5E410DB4E05F4EA6CF1B /* HuaTMediator-dummy.m */,
+				E8E347FAFF857709455B27B2513E0257 /* HuaTMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HuaTMediator";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		ADE912FAC90AF78767AEF3F7139F6299 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99F4A68197B26A320EA885299EEAEAB /* MHMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		58842D12FE57121552777DC63D2ACD82 /* Pods-HuaTxQiDemo */ = {
+		51BD7EE722CC378EB465467424DF9962 /* HuaTMediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1811F333FE3F6522B8266A829A07E393 /* Build configuration list for PBXNativeTarget "Pods-HuaTxQiDemo" */;
+			buildConfigurationList = A96CABAAEDA4EEDC7381351031FC1C4E /* Build configuration list for PBXNativeTarget "HuaTMediator" */;
 			buildPhases = (
-				807C9AD548361F7A2A6F313E0497FE64 /* Sources */,
-				2CF3564CEF89B2D42E6EE38143FCC5E1 /* Frameworks */,
+				2EDB1F3B4705247740366224BBD29A63 /* Sources */,
+				531BC6D0217BCA513BFD6D50DD357D71 /* Frameworks */,
+				ADE912FAC90AF78767AEF3F7139F6299 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = HuaTMediator;
+			productName = HuaTMediator;
+			productReference = FCE7DED79968DD44A65FED90A523DBFE /* libHuaTMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		610274DFBCB66AD53E405419A55F6106 /* Pods-HuaTxQiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FBCDFCAD3DE6349A034F4C2B9B3A5F /* Build configuration list for PBXNativeTarget "Pods-HuaTxQiDemo" */;
+			buildPhases = (
+				D79CC2183F4A511D5F18D2A353CEC991 /* Sources */,
+				A56A042D51AA0371ED78F4ACBCD9C4F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AC45FC8393DF3331635C40E1CAAE57F /* PBXTargetDependency */,
+			);
 			name = "Pods-HuaTxQiDemo";
 			productName = "Pods-HuaTxQiDemo";
-			productReference = 95FCCE42842D0A15591719FD2ACA45BE /* libPods-HuaTxQiDemo.a */;
+			productReference = F6ECA017ACA8092F8E75D7B02DF57467 /* libPods-HuaTxQiDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -129,48 +218,46 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3614256F5BE067957E256B6A0A1341E9 /* Products */;
+			productRefGroup = C4B122BAE47FBCAA5C5A6AD22A4BAAD8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58842D12FE57121552777DC63D2ACD82 /* Pods-HuaTxQiDemo */,
+				51BD7EE722CC378EB465467424DF9962 /* HuaTMediator */,
+				610274DFBCB66AD53E405419A55F6106 /* Pods-HuaTxQiDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		807C9AD548361F7A2A6F313E0497FE64 /* Sources */ = {
+		2EDB1F3B4705247740366224BBD29A63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12FADDEFEFA6BDC1F1C57A0D266DD912 /* Pods-HuaTxQiDemo-dummy.m in Sources */,
+				FC47E96565CF4BE63900287A59A42239 /* HuaTMediator-dummy.m in Sources */,
+				37D02B47FD974F358E362425A3F87DA0 /* MHMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79CC2183F4A511D5F18D2A353CEC991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35D1BA2C837D8FFBA44152DDD7B6AEA /* Pods-HuaTxQiDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		13606B39B05438CECC6FD2E7D6FD2A04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9194270F5A9E2EB2965529988C9A03C0 /* Pods-HuaTxQiDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
+/* Begin PBXTargetDependency section */
+		6AC45FC8393DF3331635C40E1CAAE57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HuaTMediator;
+			target = 51BD7EE722CC378EB465467424DF9962 /* HuaTMediator */;
+			targetProxy = 23FA5C02FB17373A5887A899C73F8904 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
 		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -234,7 +321,75 @@
 			};
 			name = Debug;
 		};
-		5B9DE066931B0A9037F16702C65A1306 /* Release */ = {
+		28A2C938D1BE0A388E7EE0932BB722E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9194270F5A9E2EB2965529988C9A03C0 /* Pods-HuaTxQiDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35CDBAD22CF6919E05E96110BF070000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C5185E3EB56EB795F1F2CC58EE2C75 /* HuaTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HuaTMediator/HuaTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HuaTMediator;
+				PRODUCT_NAME = HuaTMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF262E4F649901C3886D538D2B75A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C5185E3EB56EB795F1F2CC58EE2C75 /* HuaTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HuaTMediator/HuaTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HuaTMediator;
+				PRODUCT_NAME = HuaTMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5D18691126DE6ECCD86C4E0638F28A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70B0C7B532D9A2D9FBF5544716C3ABCB /* Pods-HuaTxQiDemo.release.xcconfig */;
 			buildSettings = {
@@ -317,11 +472,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1811F333FE3F6522B8266A829A07E393 /* Build configuration list for PBXNativeTarget "Pods-HuaTxQiDemo" */ = {
+		23FBCDFCAD3DE6349A034F4C2B9B3A5F /* Build configuration list for PBXNativeTarget "Pods-HuaTxQiDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13606B39B05438CECC6FD2E7D6FD2A04 /* Debug */,
-				5B9DE066931B0A9037F16702C65A1306 /* Release */,
+				28A2C938D1BE0A388E7EE0932BB722E7 /* Debug */,
+				E5D18691126DE6ECCD86C4E0638F28A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -331,6 +486,15 @@
 			buildConfigurations = (
 				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
 				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96CABAAEDA4EEDC7381351031FC1C4E /* Build configuration list for PBXNativeTarget "HuaTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF262E4F649901C3886D538D2B75A98 /* Debug */,
+				35CDBAD22CF6919E05E96110BF070000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

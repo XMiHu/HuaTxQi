@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 53c6c5adb33f152ba3b87f06846beea79dd04943
+PODS:
+  - HuaTMediator (0.1.0)
+
+DEPENDENCIES:
+  - HuaTMediator (~> 0.1.0)
+
+SPEC REPOS:
+  https://github.com/XMiHu/Specs:
+    - HuaTMediator
+
+SPEC CHECKSUMS:
+  HuaTMediator: 68b907808b54c4d976f093e637940f280654c20a
+
+PODFILE CHECKSUM: 21b7a95f10edf43fac776ba09abf9320b9a5df82
 
 COCOAPODS: 1.5.0
