@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55CA5F95A4441EBBDB83C95B /* libPods-HuaTxQiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAD25167B7D171645B8C42A /* libPods-HuaTxQiDemo.a */; };
 		A02F161B208DC547009834AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A02F161A208DC546009834AB /* AppDelegate.m */; };
 		A02F161E208DC547009834AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02F161D208DC547009834AB /* ViewController.m */; };
 		A02F1621208DC547009834AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02F161F208DC547009834AB /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EAD25167B7D171645B8C42A /* libPods-HuaTxQiDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HuaTxQiDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02F1616208DC546009834AB /* HuaTxQiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuaTxQiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02F1619208DC546009834AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A02F161A208DC546009834AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		A02F1625208DC547009834AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A02F1627208DC547009834AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A02F1628208DC547009834AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEBE42A78B0C7A037AEF35C4 /* Pods-HuaTxQiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaTxQiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuaTxQiDemo/Pods-HuaTxQiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B27FE3C715B28F4604D352A5 /* Pods-HuaTxQiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaTxQiDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuaTxQiDemo/Pods-HuaTxQiDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CA5F95A4441EBBDB83C95B /* libPods-HuaTxQiDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FA1CF035672EDB78137F29F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B27FE3C715B28F4604D352A5 /* Pods-HuaTxQiDemo.debug.xcconfig */,
+				AEBE42A78B0C7A037AEF35C4 /* Pods-HuaTxQiDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A02F160D208DC546009834AB = {
 			isa = PBXGroup;
 			children = (
 				A02F1618208DC546009834AB /* HuaTxQiDemo */,
 				A02F1617208DC546009834AB /* Products */,
+				8FA1CF035672EDB78137F29F /* Pods */,
+				AC2DB22BA049F12D006B6DD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +87,14 @@
 			path = HuaTxQiDemo;
 			sourceTree = "<group>";
 		};
+		AC2DB22BA049F12D006B6DD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EAD25167B7D171645B8C42A /* libPods-HuaTxQiDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A02F162C208DC547009834AB /* Build configuration list for PBXNativeTarget "HuaTxQiDemo" */;
 			buildPhases = (
+				23D646DB72F22A85FE064117 /* [CP] Check Pods Manifest.lock */,
 				A02F1612208DC546009834AB /* Sources */,
 				A02F1613208DC546009834AB /* Frameworks */,
 				A02F1614208DC546009834AB /* Resources */,
@@ -135,6 +160,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23D646DB72F22A85FE064117 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuaTxQiDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A02F1612208DC546009834AB /* Sources */ = {
@@ -281,11 +327,13 @@
 		};
 		A02F162D208DC547009834AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27FE3C715B28F4604D352A5 /* Pods-HuaTxQiDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P2NC3KCE36;
 				INFOPLIST_FILE = HuaTxQiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +346,13 @@
 		};
 		A02F162E208DC547009834AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBE42A78B0C7A037AEF35C4 /* Pods-HuaTxQiDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P2NC3KCE36;
 				INFOPLIST_FILE = HuaTxQiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
